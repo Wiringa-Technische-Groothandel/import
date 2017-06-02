@@ -1,0 +1,21 @@
+{
+    "name": "wtg/import",
+    "description": "Import module for WTG/webshop",
+    "authors": [
+        {
+            "name": "Thomas Wiringa",
+            "email": "thomas.wiringa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WTG\\Import\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.4.*",
+        "webpatser/laravel-uuid": "2.*",
+        "luna/laravel-importer": "^1.0"
+    }
+}
